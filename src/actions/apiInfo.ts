@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Dispatch } from 'react';
+import { Dispatch } from 'redux';
 
 export const GET_FLAP_API_INFO_START = 'flap/GET_FLAP_API_VERSION_START';
 export const GET_FLAP_API_INFO_RESPONSE = 'flap/GET_FLAP_API_VERSION_RESPONSE';

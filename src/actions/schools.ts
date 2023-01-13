@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Dispatch } from 'react';
+import { Dispatch } from 'redux';
 
 export const GET_SCHOOLS_START = 'flap/GET_SCHOOLS_START';
 export const GET_SCHOOLS_RESPONSE = 'flap/GET_SCHOOLS_RESPONSE';

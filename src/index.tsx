@@ -5,7 +5,7 @@ import { applyMiddleware, legacy_createStore as createStore } from 'redux';
 import thunk from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension';
 
-import Root from './components/Root';
+import Root from './Root';
 import rootReducer from './reducers/rootReducer';
 
 const enhancements = [applyMiddleware(thunk)];

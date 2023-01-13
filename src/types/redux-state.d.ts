@@ -15,6 +15,12 @@ interface School {
   CDSCode: string;
 }
 
+interface Part {
+  name: string;
+  amount: number;
+  id?: string;
+}
+
 type SchoolsData = Map<string, School>;
 
 interface FlapReduxState {
@@ -22,6 +28,11 @@ interface FlapReduxState {
   schools: ApiResult<SchoolsData>;
 }
 
+interface LocalReduxState {
+  parts: Part[];
+}
+
 interface ReduxState {
   flap: FlapReduxState;
+  local: LocalReduxState;
 }

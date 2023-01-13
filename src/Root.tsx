@@ -8,12 +8,10 @@ interface Props {
   store: Store;
 }
 
-const Root = ({ store }: Props) => {
-  return (
-    <Provider store={store}>
-      <App />
-    </Provider>
-  );
-};
+const Root = ({ store }: Props) => (
+  <Provider store={store}>
+    <App />
+  </Provider>
+);
 
 export default Root;
